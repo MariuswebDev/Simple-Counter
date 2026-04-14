@@ -19,7 +19,10 @@ const Meals = () => {
       {items.map(({ idMeal, strMeal, strMealThumb }) => (
         <div className="itemImage" key={idMeal}>
           <img src={strMealThumb} alt={strMeal} />
-          <p>{strMeal}</p>
+          <section>
+            <p>{strMeal}</p>
+            <p>#{idMeal}</p>
+          </section>
         </div>
       ))}
     </div>
