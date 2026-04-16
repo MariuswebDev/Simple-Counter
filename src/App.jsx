@@ -1,5 +1,6 @@
 import React from "react";
-import Calculator from "./components/Calculator";
+import ToggleBackgroundColor from "./components/ToggleBackgroundColor";
+// import Calculator from "./components/Calculator";
 // import Meals from "./components/Meals";
 // import Counter from "./components/Counter";
 // import Todo from "./components/Todo";
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <Todo /> */}
       {/* <Meals /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <ToggleBackgroundColor />
     </div>
   );
 };
