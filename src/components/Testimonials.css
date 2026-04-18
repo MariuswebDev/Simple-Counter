@@ -1,0 +1,36 @@
+body {
+  background-color: bisque;
+  font-family: cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.display-testimonials {
+  width: 400px;
+  padding: 40px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import "./Testimonials.css";
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,7 +33,7 @@ const Testimonials = () => {
 
   const currentJoke = jokes[currentIndex % jokes.length];
   return (
-    <div>
+    <div className="display-testimonials">
       <section className="jokes">Joke: {currentJoke.joke}</section>
       <section className="category">Category: {currentJoke.category}</section>
       <section className="buttons">
